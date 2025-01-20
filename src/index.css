@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mm{
+    position: relative;
+    left: -10px;
+    border: 0 5px 5px 0;
+}
+.main{
+    background-color: #4570b6;
+}
+.catlist{
+    background: white;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item .nav-link{
+    color: aliceblue;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:wheat;
+}
+
+.brand img{
+    width: 100%;
+}
+
+.box{
+    position: relative;
+    min-height: 190px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.box-c{
+    position: absolute;
+    width: 100%;
+    min-height: 120px;
+    background: #fff;
+    transition: 0.9s;
+    text-align: center;
+}
+
+.box:hover .box-c{
+transform: translateY(-120px);
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
